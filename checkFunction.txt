@@ -1,0 +1,10 @@
+
+        
+        
+ const buttonarryOfString = e.target.name - 1
+        console.log(buttonarryOfString)
+        const stringArry = gameString.split("")
+        setArryOfString(stringArry)
+        stringArry[buttonarryOfString] = choice
+        const stringBundle = stringArry.join("")
+        setGameString(stringBundle)

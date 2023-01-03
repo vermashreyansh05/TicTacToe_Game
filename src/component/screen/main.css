@@ -1,0 +1,37 @@
+.component{
+	background-color: darkturquoise;
+}
+
+.box{
+	padding: 5px;
+	background-color: darkslategray;
+}
+
+.box_margins{
+	margin-top: 50%;
+	margin-left: 20%;
+	margin-right: 25%;
+}
+
+.box_element{
+	padding: 2px;
+	color: aliceblue;
+}
+
+.element{
+	padding: 15px;
+	padding-left: -10px;
+}
+
+.square {
+    width: 5em;
+    height: 5em;
+    float: left;
+    border: black solid 1px;
+    background-color: white;
+    cursor: pointer;
+}
+.square:hover {
+    background-color: orange;
+    color: white;
+}
